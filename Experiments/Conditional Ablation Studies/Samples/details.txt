@@ -1,0 +1,13 @@
+BCF(no_pi_hat and oracle)
+
+Estimated time for n=100: 17 minutes
+Estimated time for n=500: 46 minutes
+Estimated time for n=1000: 1 hours and 7 minutes
+Estimated time for n=10000: 8 hours and 45 minutes
+
+BCF(pi_hat)
+
+Estimated time for n=100: 21 minutes
+Estimated time for n=500: 55 minutes
+Estimated time for n=1000: 1 hour and 20 minutes
+Estimated time for n=10000: 10 hours and 20 minutes

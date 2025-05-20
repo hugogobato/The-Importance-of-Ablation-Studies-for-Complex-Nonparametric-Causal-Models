@@ -1,0 +1,14 @@
+BCF(no_pi_hat and oracle)
+
+Estimated time for mu_trees=5: 6 minutes
+Estimated time for mu_trees=25: 7 minutes
+Estimated time for mu_trees=100: 14 minutes
+Estimated time for mu_trees=400: 41 minutes
+
+
+BCF(pi_hat)
+
+Estimated time for mu_trees=5: 12 minutes
+Estimated time for mu_trees=25: 14 minutes
+Estimated time for mu_trees=100: 28 minutes
+Estimated time for mu_trees=400: 1 hour and 20 minutes
