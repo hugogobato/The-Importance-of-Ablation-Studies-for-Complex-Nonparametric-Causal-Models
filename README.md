@@ -52,13 +52,6 @@ This repository contains the **clean, reproducible code and results** for the ab
     └── figures/                     # Generated plots (created by generate_plots.py / R scripts)
 ```
 
-### What changed vs. the original `Experiments/Used/` folder?
-- **Removed 41 `*:Zone.Identifier` files** (Windows metadata).
-- **Deleted redundant `Exp`, `Exp - Copy`, `Exp1` subfolders** (4,800 duplicate `dataset_*.csv` + 3× duplicated `BCF*.R` with `number_experiments=10` vs `100`). Canonical `BCF*.R` now uses `number_experiments=100`.
-- **Renamed opaque folders** `extreme_propensity_difficult_baseline (extreme target selection) alpha=4` → `DGP1_extreme/alpha_4` (and likewise for DGP2/DGP3).
-- **De-duplicated CSVs**: bulk `dataset_*.csv` (367 MB) replaced by generator + one `example_dataset.csv` per config (≈68 MB saved, git-friendly). Original datasets can be regenerated exactly.
-- **Fixed covariate notebooks**: `BCF(pi_hat)_part_1_cov copy.ipynb` (p=5) → `BCF(pi_hat)_part_1_cov_p5.ipynb`; `BCF(pi_oracle)_part_3 (1).ipynb` → `BCF(pi_oracle)_part_3.ipynb`.
-
 ---
 
 ## 2. Quick Start (Reproduce Paper)
