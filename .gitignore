@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+.env
+*.egg-info/
+.DS_Store
+
+# R
+.Rhistory
+.RData
+*.RData
+*.Rhistory
+
+# Generated datasets (regenerate via data_generation/Creating_datasets.py)
+dataset_*.csv
+datasets_*/
+datasets/
+
+# Large outputs (keep example, commit aggregated xlsx)
+*.Rout
+*.log
+
+# OS
+Thumbs.db
+*.Zone.Identifier
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Results large intermediate
+results/tmp/

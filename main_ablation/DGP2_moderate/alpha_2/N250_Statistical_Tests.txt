@@ -1,0 +1,179 @@
+BCF
+Mean of each column:
+    CATE_RMSE      CATE_MAE     CATE_MAPE    CATE_cover      CATE_len 
+   0.19214533    0.17116267    0.82886095    0.97380000    0.98762542 
+     ATE_RMSE       ATE_MAE      ATE_MAPE     ATE_cover       ATE_len 
+   0.15430693    0.15430693    0.61960623    0.92000000    0.69557425 
+      pi_RMSE        pi_MAE  SE_ATE_cover  AE_ATE_cover SE_CATE_cover 
+   0.07920338    0.06241135    0.07450000    0.12200000    0.00544880 
+AE_CATE_cover 
+   0.05580000 
+
+Standard deviation of each column:
+    CATE_RMSE      CATE_MAE     CATE_MAPE    CATE_cover      CATE_len 
+  0.079904219   0.079860431   0.387084902   0.070225898   0.155398240 
+     ATE_RMSE       ATE_MAE      ATE_MAPE     ATE_cover       ATE_len 
+  0.096668658   0.096668658   0.387728802   0.272659924   0.083773793 
+      pi_RMSE        pi_MAE  SE_ATE_cover  AE_ATE_cover SE_CATE_cover 
+  0.010639045   0.008466521   0.245393932   0.245393932   0.019543892 
+AE_CATE_cover 
+  0.048566938 
+BCF(no_pi_hat)Mean of each column:
+    CATE_RMSE      CATE_MAE     CATE_MAPE    CATE_cover      CATE_len 
+   0.18231351    0.16114073    0.82977154    0.98200000    0.98408500 
+     ATE_RMSE       ATE_MAE      ATE_MAPE     ATE_cover       ATE_len 
+   0.14171832    0.14171832    0.56939735    0.94000000    0.66534813 
+      pi_RMSE        pi_MAE  SE_ATE_cover  AE_ATE_cover SE_CATE_cover 
+   0.36584644    0.36119308    0.05650000    0.10400000    0.00691952 
+AE_CATE_cover 
+   0.05612000 
+
+Standard deviation of each column:
+    CATE_RMSE      CATE_MAE     CATE_MAPE    CATE_cover      CATE_len 
+  0.075036205   0.074738902   0.414705570   0.077169105   0.159225029 
+     ATE_RMSE       ATE_MAE      ATE_MAPE     ATE_cover       ATE_len 
+  0.093031921   0.093031921   0.373978896   0.238683257   0.091620763 
+      pi_RMSE        pi_MAE  SE_ATE_cover  AE_ATE_cover SE_CATE_cover 
+  0.003255087   0.003279622   0.214814931   0.214814931   0.035180615 
+AE_CATE_cover 
+  0.061710186 
+For CATE_RMSE
+Mann-Whitney U Test:
+[1] 0.4151466
+Kruskal-Wallis H Test:
+[1] 0.4144476
+Levene's Test:
+[1] 0.2110544
+Brown-Forsythe Test:
+[1] 0.2886309
+For CATE_MAE
+Mann-Whitney U Test:
+[1] 0.4068043
+Kruskal-Wallis H Test:
+[1] 0.4061136
+Levene's Test:
+[1] 0.2117508
+Brown-Forsythe Test:
+[1] 0.3190248
+For CATE_MAPE
+Mann-Whitney U Test:
+[1] 0.913416
+Kruskal-Wallis H Test:
+[1] 0.912447
+Levene's Test:
+[1] 0.8095486
+Brown-Forsythe Test:
+[1] 0.718758
+For CATE_cover
+Mann-Whitney U Test:
+[1] 0.4644172
+Kruskal-Wallis H Test:
+[1] 0.4634754
+Levene's Test:
+[1] 0.2498614
+Brown-Forsythe Test:
+[1] 0.4328682
+For CATE_len
+Mann-Whitney U Test:
+[1] 0.8921311
+Kruskal-Wallis H Test:
+[1] 0.8911653
+Levene's Test:
+[1] 0.7035092
+Brown-Forsythe Test:
+[1] 0.7674544
+For ATE_RMSE
+Mann-Whitney U Test:
+[1] 0.3400111
+Kruskal-Wallis H Test:
+[1] 0.3393931
+Levene's Test:
+[1] 0.6483088
+Brown-Forsythe Test:
+[1] 0.6646704
+For ATE_MAE
+Mann-Whitney U Test:
+[1] 0.3400111
+Kruskal-Wallis H Test:
+[1] 0.3393931
+Levene's Test:
+[1] 0.6483088
+Brown-Forsythe Test:
+[1] 0.6646704
+For ATE_MAPE
+Mann-Whitney U Test:
+[1] 0.3375436
+Kruskal-Wallis H Test:
+[1] 0.3369285
+Levene's Test:
+[1] 0.6694655
+Brown-Forsythe Test:
+[1] 0.6765359
+For ATE_cover
+Mann-Whitney U Test:
+[1] 0.5822356
+Kruskal-Wallis H Test:
+[1] 0.5803411
+Levene's Test:
+[1] 0.2696583
+Brown-Forsythe Test:
+[1] 0.5816258
+For ATE_len
+Mann-Whitney U Test:
+[1] 0.009769472
+Kruskal-Wallis H Test:
+[1] 0.009734922
+Levene's Test:
+[1] 0.4740186
+Brown-Forsythe Test:
+[1] 0.5928782
+For pi_RMSE
+Fligner-Policello test:
+[1] 0
+Levene's Test:
+[1] 2.659125e-16
+Brown-Forsythe Test:
+[1] 3.026415e-16
+For pi_MAE
+Fligner-Policello test:
+[1] 0
+Levene's Test:
+[1] 1.540001e-14
+Brown-Forsythe Test:
+[1] 2.896403e-14
+For SE_ATE_cover
+Mann-Whitney U Test:
+[1] 0.5822356
+Kruskal-Wallis H Test:
+[1] 0.5803411
+Levene's Test:
+[1] 0.2696583
+Brown-Forsythe Test:
+[1] 0.5816258
+For AE_ATE_cover
+Mann-Whitney U Test:
+[1] 0.5822356
+Kruskal-Wallis H Test:
+[1] 0.5803411
+Levene's Test:
+[1] 0.2696583
+Brown-Forsythe Test:
+[1] 0.5816258
+For SE_CATE_cover
+Mann-Whitney U Test:
+[1] 0.2861883
+Kruskal-Wallis H Test:
+[1] 0.2854916
+Levene's Test:
+[1] 0.4229651
+Brown-Forsythe Test:
+[1] 0.7302021
+For AE_CATE_cover
+Mann-Whitney U Test:
+[1] 0.2861883
+Kruskal-Wallis H Test:
+[1] 0.2854916
+Levene's Test:
+[1] 0.9172034
+Brown-Forsythe Test:
+[1] 0.8185494

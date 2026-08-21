@@ -1,0 +1,45 @@
+# A tibble: 42 × 4
+   Source              variable         Mean   StdDev
+   <chr>               <fct>           <dbl>    <dbl>
+ 1 BCF(no_pi_hat)_N250 CATE_RMSE     0.130   0.0827  
+ 2 BCF(no_pi_hat)_N250 CATE_MAE      0.119   0.0827  
+ 3 BCF(no_pi_hat)_N250 CATE_MAPE     1.30    0.955   
+ 4 BCF(no_pi_hat)_N250 CATE_cover    0.998   0.00834 
+ 5 BCF(no_pi_hat)_N250 CATE_len      0.930   0.142   
+ 6 BCF(no_pi_hat)_N250 ATE_RMSE      0.110   0.0883  
+ 7 BCF(no_pi_hat)_N250 ATE_MAE       0.110   0.0883  
+ 8 BCF(no_pi_hat)_N250 ATE_MAPE      0.877   0.697   
+ 9 BCF(no_pi_hat)_N250 ATE_cover     0.95    0.219   
+10 BCF(no_pi_hat)_N250 ATE_len       0.638   0.0775  
+11 BCF(no_pi_hat)_N250 pi_RMSE       0.366   0.00355 
+12 BCF(no_pi_hat)_N250 pi_MAE        0.362   0.00357 
+13 BCF(no_pi_hat)_N250 SE_CATE_cover 0.00240 0.000462
+14 BCF(no_pi_hat)_N250 AE_CATE_cover 0.0484  0.00761 
+15 BCF(pi_oracle)_N250 CATE_RMSE     0.129   0.0811  
+16 BCF(pi_oracle)_N250 CATE_MAE      0.117   0.0816  
+17 BCF(pi_oracle)_N250 CATE_MAPE     1.25    0.907   
+18 BCF(pi_oracle)_N250 CATE_cover    0.997   0.0171  
+19 BCF(pi_oracle)_N250 CATE_len      0.901   0.132   
+20 BCF(pi_oracle)_N250 ATE_RMSE      0.108   0.0889  
+21 BCF(pi_oracle)_N250 ATE_MAE       0.108   0.0889  
+22 BCF(pi_oracle)_N250 ATE_MAPE      0.865   0.705   
+23 BCF(pi_oracle)_N250 ATE_cover     0.97    0.171   
+24 BCF(pi_oracle)_N250 ATE_len       0.628   0.0767  
+25 BCF(pi_oracle)_N250 pi_RMSE       0       0       
+26 BCF(pi_oracle)_N250 pi_MAE        0       0       
+27 BCF(pi_oracle)_N250 SE_CATE_cover 0.00249 0.000832
+28 BCF(pi_oracle)_N250 AE_CATE_cover 0.0492  0.00848 
+29 BCF_N250            CATE_RMSE     0.134   0.0897  
+30 BCF_N250            CATE_MAE      0.122   0.0898  
+31 BCF_N250            CATE_MAPE     1.29    1.01    
+32 BCF_N250            CATE_cover    0.997   0.0158  
+33 BCF_N250            CATE_len      0.959   0.143   
+34 BCF_N250            ATE_RMSE      0.113   0.0957  
+35 BCF_N250            ATE_MAE       0.113   0.0957  
+36 BCF_N250            ATE_MAPE      0.904   0.757   
+37 BCF_N250            ATE_cover     0.97    0.171   
+38 BCF_N250            ATE_len       0.676   0.0882  
+39 BCF_N250            pi_RMSE       0.0787  0.0119  
+40 BCF_N250            pi_MAE        0.0616  0.00974 
+41 BCF_N250            SE_CATE_cover 0.00243 0.000349
+42 BCF_N250            AE_CATE_cover 0.0491  0.00498 

@@ -1,0 +1,13 @@
+BCF(no_pi_hat and oracle)
+
+Estimated time for num_covariate=10: 40 minutes
+Estimated time for num_covariate=50: 2 hours and 30 minutes
+Estimated time for num_covariate=100: 4 hours and 50 minutes
+Estimated time for num_covariate=200: 10 hours
+
+BCF(pi_hat)
+
+Estimated time for num_covariate=10: 46 minutes
+Estimated time for num_covariate=50: 2 hours and 50 minutes
+Estimated time for num_covariate=100: 5 hours and 45 minutes
+Estimated time for num_covariate=200: 11 hours and 30 minutes

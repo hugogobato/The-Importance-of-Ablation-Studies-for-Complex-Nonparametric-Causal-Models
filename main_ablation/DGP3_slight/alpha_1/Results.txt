@@ -1,0 +1,135 @@
+# A tibble: 42 × 4
+   Source              variable         Mean StdDev
+   <chr>               <fct>           <dbl>  <dbl>
+ 1 BCF(no_pi_hat)_N100 CATE_RMSE     0.288   0.115 
+ 2 BCF(no_pi_hat)_N100 CATE_MAE      0.244   0.109 
+ 3 BCF(no_pi_hat)_N100 CATE_MAPE     0.795   0.548 
+ 4 BCF(no_pi_hat)_N100 CATE_cover    0.970   0.0777
+ 5 BCF(no_pi_hat)_N100 CATE_len      1.34    0.187 
+ 6 BCF(no_pi_hat)_N100 ATE_RMSE      0.184   0.145 
+ 7 BCF(no_pi_hat)_N100 ATE_MAE       0.184   0.145 
+ 8 BCF(no_pi_hat)_N100 ATE_MAPE      0.366   0.288 
+ 9 BCF(no_pi_hat)_N100 ATE_cover     0.94    0.239 
+10 BCF(no_pi_hat)_N100 ATE_len       0.930   0.102 
+11 BCF(no_pi_hat)_N100 pi_RMSE       0.310   0.0119
+12 BCF(no_pi_hat)_N100 pi_MAE        0.277   0.0143
+13 BCF(no_pi_hat)_N100 SE_CATE_cover 0.00636 0.0180
+14 BCF(no_pi_hat)_N100 AE_CATE_cover 0.059   0.0539
+15 BCF(pi_oracle)_N100 CATE_RMSE     0.288   0.101 
+16 BCF(pi_oracle)_N100 CATE_MAE      0.243   0.0961
+17 BCF(pi_oracle)_N100 CATE_MAPE     0.705   0.469 
+18 BCF(pi_oracle)_N100 CATE_cover    0.969   0.0725
+19 BCF(pi_oracle)_N100 CATE_len      1.30    0.202 
+20 BCF(pi_oracle)_N100 ATE_RMSE      0.184   0.137 
+21 BCF(pi_oracle)_N100 ATE_MAE       0.184   0.137 
+22 BCF(pi_oracle)_N100 ATE_MAPE      0.367   0.271 
+23 BCF(pi_oracle)_N100 ATE_cover     0.97    0.171 
+24 BCF(pi_oracle)_N100 ATE_len       0.945   0.123 
+25 BCF(pi_oracle)_N100 pi_RMSE       0       0     
+26 BCF(pi_oracle)_N100 pi_MAE        0       0     
+27 BCF(pi_oracle)_N100 SE_CATE_cover 0.00557 0.0156
+28 BCF(pi_oracle)_N100 AE_CATE_cover 0.0579  0.0473
+29 BCF_N100            CATE_RMSE     0.294   0.111 
+30 BCF_N100            CATE_MAE      0.249   0.106 
+31 BCF_N100            CATE_MAPE     0.703   0.450 
+32 BCF_N100            CATE_cover    0.960   0.0991
+33 BCF_N100            CATE_len      1.33    0.198 
+34 BCF_N100            ATE_RMSE      0.197   0.141 
+35 BCF_N100            ATE_MAE       0.197   0.141 
+36 BCF_N100            ATE_MAPE      0.393   0.280 
+37 BCF_N100            ATE_cover     0.94    0.239 
+38 BCF_N100            ATE_len       0.990   0.129 
+39 BCF_N100            pi_RMSE       0.153   0.0247
+40 BCF_N100            pi_MAE        0.118   0.0192
+41 BCF_N100            SE_CATE_cover 0.00982 0.0349
+42 BCF_N100            AE_CATE_cover 0.0667  0.0736
+# A tibble: 42 × 4
+   Source              variable         Mean  StdDev
+   <chr>               <fct>           <dbl>   <dbl>
+ 1 BCF(no_pi_hat)_N250 CATE_RMSE     0.249   0.0764 
+ 2 BCF(no_pi_hat)_N250 CATE_MAE      0.208   0.0705 
+ 3 BCF(no_pi_hat)_N250 CATE_MAPE     0.707   0.303  
+ 4 BCF(no_pi_hat)_N250 CATE_cover    0.949   0.0906 
+ 5 BCF(no_pi_hat)_N250 CATE_len      1.05    0.134  
+ 6 BCF(no_pi_hat)_N250 ATE_RMSE      0.143   0.107  
+ 7 BCF(no_pi_hat)_N250 ATE_MAE       0.143   0.107  
+ 8 BCF(no_pi_hat)_N250 ATE_MAPE      0.287   0.214  
+ 9 BCF(no_pi_hat)_N250 ATE_cover     0.88    0.327  
+10 BCF(no_pi_hat)_N250 ATE_len       0.613   0.0480 
+11 BCF(no_pi_hat)_N250 pi_RMSE       0.311   0.00825
+12 BCF(no_pi_hat)_N250 pi_MAE        0.279   0.0100 
+13 BCF(no_pi_hat)_N250 SE_CATE_cover 0.00813 0.0279 
+14 BCF(no_pi_hat)_N250 AE_CATE_cover 0.058   0.0694 
+15 BCF(pi_oracle)_N250 CATE_RMSE     0.254   0.0767 
+16 BCF(pi_oracle)_N250 CATE_MAE      0.212   0.0719 
+17 BCF(pi_oracle)_N250 CATE_MAPE     0.629   0.227  
+18 BCF(pi_oracle)_N250 CATE_cover    0.940   0.122  
+19 BCF(pi_oracle)_N250 CATE_len      1.01    0.128  
+20 BCF(pi_oracle)_N250 ATE_RMSE      0.145   0.109  
+21 BCF(pi_oracle)_N250 ATE_MAE       0.145   0.109  
+22 BCF(pi_oracle)_N250 ATE_MAPE      0.291   0.217  
+23 BCF(pi_oracle)_N250 ATE_cover     0.94    0.239  
+24 BCF(pi_oracle)_N250 ATE_len       0.644   0.0551 
+25 BCF(pi_oracle)_N250 pi_RMSE       0       0      
+26 BCF(pi_oracle)_N250 pi_MAE        0       0      
+27 BCF(pi_oracle)_N250 SE_CATE_cover 0.0147  0.0688 
+28 BCF(pi_oracle)_N250 AE_CATE_cover 0.0660  0.102  
+29 BCF_N250            CATE_RMSE     0.268   0.0827 
+30 BCF_N250            CATE_MAE      0.225   0.0790 
+31 BCF_N250            CATE_MAPE     0.628   0.200  
+32 BCF_N250            CATE_cover    0.930   0.136  
+33 BCF_N250            CATE_len      1.02    0.132  
+34 BCF_N250            ATE_RMSE      0.167   0.116  
+35 BCF_N250            ATE_MAE       0.167   0.116  
+36 BCF_N250            ATE_MAPE      0.333   0.231  
+37 BCF_N250            ATE_cover     0.9     0.302  
+38 BCF_N250            ATE_len       0.667   0.0631 
+39 BCF_N250            pi_RMSE       0.122   0.0152 
+40 BCF_N250            pi_MAE        0.0949  0.0117 
+41 BCF_N250            SE_CATE_cover 0.0187  0.0780 
+42 BCF_N250            AE_CATE_cover 0.0732  0.116  
+# A tibble: 42 × 4
+   Source              variable         Mean  StdDev
+   <chr>               <fct>           <dbl>   <dbl>
+ 1 BCF(no_pi_hat)_N500 CATE_RMSE     0.221   0.0559 
+ 2 BCF(no_pi_hat)_N500 CATE_MAE      0.183   0.0511 
+ 3 BCF(no_pi_hat)_N500 CATE_MAPE     0.648   0.229  
+ 4 BCF(no_pi_hat)_N500 CATE_cover    0.943   0.0747 
+ 5 BCF(no_pi_hat)_N500 CATE_len      0.875   0.0961 
+ 6 BCF(no_pi_hat)_N500 ATE_RMSE      0.115   0.0832 
+ 7 BCF(no_pi_hat)_N500 ATE_MAE       0.115   0.0832 
+ 8 BCF(no_pi_hat)_N500 ATE_MAPE      0.230   0.167  
+ 9 BCF(no_pi_hat)_N500 ATE_cover     0.88    0.327  
+10 BCF(no_pi_hat)_N500 ATE_len       0.432   0.0237 
+11 BCF(no_pi_hat)_N500 pi_RMSE       0.312   0.00496
+12 BCF(no_pi_hat)_N500 pi_MAE        0.280   0.00613
+13 BCF(no_pi_hat)_N500 SE_CATE_cover 0.00558 0.0136 
+14 BCF(no_pi_hat)_N500 AE_CATE_cover 0.0540  0.0519 
+15 BCF(pi_oracle)_N500 CATE_RMSE     0.218   0.0445 
+16 BCF(pi_oracle)_N500 CATE_MAE      0.179   0.0388 
+17 BCF(pi_oracle)_N500 CATE_MAPE     0.581   0.174  
+18 BCF(pi_oracle)_N500 CATE_cover    0.945   0.0667 
+19 BCF(pi_oracle)_N500 CATE_len      0.846   0.0909 
+20 BCF(pi_oracle)_N500 ATE_RMSE      0.101   0.0712 
+21 BCF(pi_oracle)_N500 ATE_MAE       0.101   0.0712 
+22 BCF(pi_oracle)_N500 ATE_MAPE      0.202   0.142  
+23 BCF(pi_oracle)_N500 ATE_cover     0.93    0.256  
+24 BCF(pi_oracle)_N500 ATE_len       0.453   0.0280 
+25 BCF(pi_oracle)_N500 pi_RMSE       0       0      
+26 BCF(pi_oracle)_N500 pi_MAE        0       0      
+27 BCF(pi_oracle)_N500 SE_CATE_cover 0.00443 0.0112 
+28 BCF(pi_oracle)_N500 AE_CATE_cover 0.0482  0.0462 
+29 BCF_N500            CATE_RMSE     0.223   0.0484 
+30 BCF_N500            CATE_MAE      0.183   0.0425 
+31 BCF_N500            CATE_MAPE     0.559   0.150  
+32 BCF_N500            CATE_cover    0.937   0.0790 
+33 BCF_N500            CATE_len      0.853   0.0953 
+34 BCF_N500            ATE_RMSE      0.108   0.0754 
+35 BCF_N500            ATE_MAE       0.108   0.0754 
+36 BCF_N500            ATE_MAPE      0.217   0.150  
+37 BCF_N500            ATE_cover     0.93    0.256  
+38 BCF_N500            ATE_len       0.478   0.0315 
+39 BCF_N500            pi_RMSE       0.0988  0.0112 
+40 BCF_N500            pi_MAE        0.0767  0.00851
+41 BCF_N500            SE_CATE_cover 0.00635 0.0153 
+42 BCF_N500            AE_CATE_cover 0.0545  0.0585 
